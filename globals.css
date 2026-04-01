@@ -1,0 +1,7 @@
+
+:root{--bg:#fafafa;--txt:#111}
+[data-theme="dark"]{--bg:#1e1e1e;--txt:#eee}
+html,body{margin:0;padding:0;font-family:sans-serif;background:var(--bg);color:var(--txt)}
+nav{display:flex;gap:.8rem;padding:1rem;background:#0066cc}
+nav a{color:#fff;font-weight:bold}
+button{margin:.4rem;padding:.4rem .8rem;cursor:pointer}
